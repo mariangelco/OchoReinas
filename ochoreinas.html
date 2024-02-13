@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocho reinas</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <script src="./js/funciones.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <center>
+        <h1>Ocho reinas</h1>
+    </center>
+
+    <div class="table-container">
+      <center>
+        <table border="1" id="tabla">
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+
+          <tr>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+            <td onclick="colocarReina(this)"></td>
+          </tr>
+        </table>
+        <div class="options">
+          <font color="white" size=5 face="font-family: American Typewriter, serif"><b>
+              <class="options-label">Soluciones:</b></class>
+            <select class="options-select" name="" id="" onchange="solucion(value)">
+              <option value="0">Soluciones</option>
+              <option value="1">Solución 1</option>
+              <option value="2">Solución 2</option>
+              <option value="3">Solución 3</option>
+            </select>
+          </font>
+          <button class="options-button" id="resetButton" onclick="reiniciarTablero()">
+            <font size=4 face="font-family: American Typewriter, serif"><b>Reiniciar tablero</font></b>
+          </button>
+      </center>
+    </div>
+  </div>
+  </div>
+  <div class="options-text">
+    <p style="font-size: 35px; font-family: American Typewriter, serif">
+      <strong id="reinasColocar">Reinas restantes: 8</strong>
+      <strong id="reinasColocadas"><br>Reinas colocadas: 0</strong>
+    </p>
+  </div>
+  
+
+</body>
+
+</html>
